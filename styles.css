@@ -1,7 +1,47 @@
-body {
-  background-color: aquamarine;
+html, body {
+  height: 100%;
+  /* background-color: black; */
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
 
-p {
-  color: blue;
+.main-container {
+  display: flex;
+  height: 100%;
+}
+
+.left-section {
+  display: flex;
+  height: 100%;
+  flex: 1 1 40%;
+}
+
+.right-section {
+  display: flex;
+  height: 100%;
+  flex: 1 1 60%;
+  flex-direction: column;
+}
+
+.image-sidebar {
+  
+  flex: 1 1 auto;
+}
+
+.paragraph {
+  border: 3px solid yellow;
+  flex: 1 1 35%;
+}
+
+.form {
+  border: 3px solid yellow;
+  flex: 1 1 30%;
+}
+
+.create-account {
+  border: 3px solid yellow;
+  flex: 1 1 35%;
+}
+
+.odin-logo {
+  border: 1px solid orange;
 }
