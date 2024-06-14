@@ -4,15 +4,24 @@ html, body {
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
 
+@font-face {
+  font-family: logo-font;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
 .main-container {
   display: flex;
   height: 100%;
 }
 
 .left-section {
-  display: flex;
   height: 100%;
+  display: flex;
   flex: 1 1 40%;
+  flex-direction: column;
+  background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .right-section {
@@ -22,9 +31,61 @@ html, body {
   flex-direction: column;
 }
 
-.image-sidebar {
-  
-  flex: 1 1 auto;
+.image-holder {
+  display: flex;
+  flex: 1 1 80%;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 3px dotted red; */
+}
+
+.odin-logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  /* opacity: 0.4; */
+  /* border: 3px dotted blue; */
+}
+
+.logo {
+  padding: 10px;
+  padding-right: 1px;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  /* border: 3px solid green; */
+  background-color: black;
+  opacity: 0.5;
+}
+
+.text {
+  padding: 10px;
+  padding-left: 1px;
+  flex: 1;  
+  font-size: 99px;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  font-family: logo-font;
+}
+
+.credit-holder {
+  display: flex;
+  flex: 1 1 20%;
+  justify-content: center;
+}
+
+.credit {
+  color: white;
+  align-self: flex-end;
+}
+
+.credit a {
+  color: white;
+}
+
+.credit p {
+  border-bottom: 5px;
 }
 
 .paragraph {
@@ -40,8 +101,4 @@ html, body {
 .create-account {
   border: 3px solid yellow;
   flex: 1 1 35%;
-}
-
-.odin-logo {
-  border: 1px solid orange;
 }
