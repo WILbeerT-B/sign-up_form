@@ -1,5 +1,7 @@
 html, body {
   height: 100%;
+  width: 100%;
+  box-sizing: border-box;
   /* background-color: black; */
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
@@ -22,13 +24,6 @@ html, body {
   background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.right-section {
-  display: flex;
-  height: 100%;
-  flex: 1 1 60%;
-  flex-direction: column;
 }
 
 .image-holder {
@@ -88,17 +83,66 @@ html, body {
   border-bottom: 5px;
 }
 
-.paragraph {
-  border: 3px solid yellow;
-  flex: 1 1 35%;
+.right-section {
+  display: flex;
+  height: 100%;
+  flex: 1 1 60%;
+  flex-direction: column;
 }
 
-.form {
-  border: 3px solid yellow;
+.paragraph-item {
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid blue; */
+  flex: 1 1 35%;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: lightgrey;
+  ;
+}
+
+.paragraph-item > p {
+  /* border: 2px dotted green; */
+  font-size: larger;
+  font-weight: bolder;
+
+}
+
+.form-item {
+  /* border: 3px solid yellow; */
+  display: flex;
   flex: 1 1 30%;
+  flex-direction: column;
+  padding: 20px;
 }
 
-.create-account {
-  border: 3px solid yellow;
+.form-paragraph > p {
+  flex: 1;
+  /* border: 3px solid red; */
+}
+
+.form-sub-item {
+  display: flex;
+  
+}
+
+.form-sub-item-1 {
+  flex: 1;
+  
+}
+
+
+
+.account-item {
+  /* border: 3px solid yellow; */
   flex: 1 1 35%;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.account-item-1 > button {
+  background-color: #596D48;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
 }
