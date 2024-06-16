@@ -57,7 +57,7 @@ html, body {
   padding: 10px;
   padding-left: 1px;
   flex: 1;  
-  font-size: 99px;
+  font-size: 129px;
   color: white;
   background-color: black;
   opacity: 0.5;
@@ -94,11 +94,11 @@ html, body {
   display: flex;
   flex-direction: column;
   /* border: 3px solid blue; */
-  flex: 1 1 35%;
+  flex: 1 1 40%;
   justify-content: flex-end;
   padding: 20px;
-  background-color: lightgrey;
-  ;
+  background-color: rgb(242, 243, 241);
+  opacity: 2;
 }
 
 .paragraph-item > p {
@@ -111,9 +111,9 @@ html, body {
 .form-item {
   /* border: 3px solid yellow; */
   display: flex;
-  flex: 1 1 30%;
+  flex: 1 1 40%;
   flex-direction: column;
-  padding: 20px;
+  padding: 15px;
 }
 
 .form-paragraph > p {
@@ -128,16 +128,14 @@ html, body {
 
 .form-sub-item-1 {
   flex: 1;
-  
 }
-
-
 
 .account-item {
   /* border: 3px solid yellow; */
-  flex: 1 1 35%;
+  flex: 1 1 20%;
   padding: 20px;
-  background-color: lightgray;
+  background-color: rgb(242, 243, 241);
+  border-bottom: 1px solid lightgray;
 }
 
 .account-item-1 > button {
@@ -146,3 +144,18 @@ html, body {
   padding: 10px;
   border-radius: 5px;
 }
+
+input {
+  border: 1px solid #E5E7EB;
+  /* padding: 5px 5px; */
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 2px blue;
+}
+
+input:invalid {
+  border-color: red;
+}
+
