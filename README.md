@@ -14,6 +14,6 @@ To build a sign-up form and be able to:
 2. Have a basic idea on how to style forms
 
 ABOUT:
-I plan to build this project by duplicating the design file.
+I plan to build this project similar to the design file.
 
 WB
